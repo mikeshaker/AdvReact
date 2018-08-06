@@ -1,0 +1,50 @@
+{
+  "name": "mike-react",
+  "version": "1.0.0",
+  "description": "advanced-react",
+  "main": "lib/server.js",
+  "author": "Mike Shaker",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -wd",
+    "test": "jest --watchAll"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.4.2",
+    "prettier": "^1.14.0",
+    "webpack-command": "^0.4.1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.16.4"
+  }
+}
