@@ -1,2 +1,2 @@
-# Advanced React
+# React App
 #
