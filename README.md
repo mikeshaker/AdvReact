@@ -1,2 +1,2 @@
 # Advanced React
-# Mike Shaker
+#
